@@ -1,0 +1,23 @@
+{
+    "GREEN": {
+        "action": "Maintain normal operations",
+        "signage_message": "Trains running on time. Have a safe journey.",
+        "api_throttle": false
+    },
+    "YELLOW": {
+        "action": "Alert Station Master. Pre-position RPF personnel.",
+        "signage_message": "Platform crowded. Please move towards the ends.",
+        "api_throttle": false
+    },
+    "RED": {
+        "action": "Require HITL Verification. Prepare automated rerouting.",
+        "signage_message": "WARNING: High density. Do not board approaching train.",
+        "api_throttle": true
+    },
+    "CRITICAL": {
+        "action": "AUTONOMOUS OVERRIDE. Dispatch Emergency Services.",
+        "signage_message": "STOP. PLATFORM CLOSED. USE ALTERNATE EXITS.",
+        "api_throttle": true,
+        "truth_broadcast_trigger": true
+    }
+}

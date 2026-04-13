@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+websockets
+opencv-python
+ultralytics
+scikit-learn
+numpy
+pandas
+twilio
+python-dotenv
